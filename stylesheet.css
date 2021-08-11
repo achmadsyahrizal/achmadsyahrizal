@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Freight Text";
+}
+
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson-wrapper {
+	background-image: url(purple.jpg);
+	background-repeat: no-repeat;
+	background-size : cover;
+		
+}
+
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+}
+.heading h1 {
+	color: rgb(0, 0, 0);
+}
+.heading h2 {
+  font-weight: normal;
+	padding-bottom: 0px;
+	color: rgb(0, 0, 0);
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+.lesson p {
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 15px;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	
+}
+.lesson a {
+	color: black;
+	padding: 0px 35px;
+}
+.lesson p :hover {
+	color: white;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+	position: absolute;
+	top: -40px;
+	width: 100%;
+	color: black;
+	font-style: italic;
+	left: 1px;
+	height: 15px;
+	font-size: 20px;
+}
+
